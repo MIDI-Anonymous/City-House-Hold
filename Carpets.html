@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Carpet Category</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li id="contact"><a href="/contact.html">Contact</a></li>
+            <li id="home"><a href="/index.html">Home</a></li>
+        </ul>
+        <ul class="pages">
+            <li class="hideOnMobile" id="contact-button"><a href="/contact.html">Contact</a></li>
+            <li class="hideOnMobile" id="home-button"><a href="/index.html">Home</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+        <div class="carpet-container">
+            <div class="carpet-title">
+                <div class="carpet-content">
+                    <h1 class="title" id="main-title-carpets">City House Hold</h1>
+                    <h4 class="title" id="title-d-carpets">Our Shop, Your Desire's</h4>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="carpet-section">
+        <h2 class="carpet-title-2">Carpet Collection</h2>
+        <div class="carpet-con">
+            <div class="carpet-item">
+                <img src="/Images/IMG_4020.JPG" alt="Image" class="carpet-image">
+            </div>
+            <div class="carpet-item">
+                <img src="/Images/IMG_4021.JPG" alt="Image" class="carpet-image">
+            </div>
+            <div class="carpet-item">
+                <img src="/Images/IMG_4116.JPG" alt="Image" class="carpet-image">
+            </div>
+            <div class="carpet-item" id="more-carpets">
+                <img src="/Images/IMG_4117.JPG" alt="Image" class="carpet-image">
+            </div>
+            <div class="carpet-info">
+                <h1>Visit Our Store For More Carpet Options or Contact Us</h1>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
